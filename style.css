@@ -119,7 +119,10 @@ header {
 .footer {
     margin-top: auto;
     display: flex;
-    flex-direction: column;
+}
+
+.about-company {
+    margin-top: 44px;
 }
 
 .footer-links {
@@ -136,6 +139,20 @@ header {
     height: 338px;
 }
 
+.downloads {
+    margin-left: 125px;
+    margin-top: 25px;
+}
+
+.download_item {
+    margin-right: 10px;
+}
+
+.additional-nav {
+    margin-top: 60px;
+    margin-left: auto;
+}
+
 .footer__line {
     border: 1px solid #2B292D;
     width: 100%;
@@ -143,7 +160,9 @@ header {
     margin: 0;
 }
 
-.terms {
+.additional-nav {}
+
+.footer- .terms {
     line-height: 50px;
     opacity: 0.6;
     font-size: 14px;
@@ -164,3 +183,16 @@ header {
 }
 
 .social-links__item {}
+
+.logo__image_2 {
+    margin-left: 125px;
+}
+
+.footer-description {
+    margin-left: 125px;
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+    margin-top: 26px;
+    color: rgba(43, 41, 45, 0.6);
+}
