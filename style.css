@@ -8,8 +8,11 @@ html {
 }
 
 .page {
-    width: 1140px;
+    width: 1400px;
     margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -106,7 +109,58 @@ header {
 }
 
 .top-section {
-    width: 1400px;
     background-color: #F3C6BD;
     padding-top: 39px;
 }
+
+
+/*Footer*/
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links {
+    width: 1140px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer-navigation {
+    width: 1140px;
+    margin: 0;
+    height: 338px;
+}
+
+.footer__line {
+    border: 1px solid #2B292D;
+    width: 100%;
+    opacity: 0.1;
+    margin: 0;
+}
+
+.terms {
+    line-height: 50px;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.term__items {
+    text-decoration: none;
+    color: #2B292D;
+    margin-right: 22px;
+}
+
+.social-links {
+    margin-left: auto;
+}
+
+.social-links__item {
+    margin: 20px;
+}
+
+.social-links__item {}
