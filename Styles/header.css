@@ -19,36 +19,39 @@ header {
     width: 58px;
     opacity: 0.15;
     border-left: 1px solid #000000;
-    border: none;
     height: 100%;
     margin-left: auto;
+    display: inline-block;
+    background-color: transparent;
 }
 
 .header__menu-icon {
     width: 18px;
     height: 13px;
-    /*display: inline;*/
+    background-image: url(../img/icon-hamburger.png);
+    display: inline-block;
 }
 
-@media screen and(max-width:400px) {
+@media screen and (min-width:400px) {
     .top-section {
         background-color: #F3C6BD;
         padding-top: 39px;
-    }
-    .header__menu-button {
-        display: none;
-    }
-    .navigation {
-        display: block;
-        margin-left: auto;
-        margin-top: 7px;
-        margin-right: 75px;
     }
     header {
         width: 1140px;
         height: 62px;
         margin: auto;
         display: flex;
+        background-color: #F3C6BD;
+    }
+    .header__menu-button {
+        display: block;
+    }
+    .navigation {
+        display: block;
+        margin-left: auto;
+        margin-top: 7px;
+        margin-right: 75px;
     }
     .header__button {
         display: block;
@@ -63,6 +66,9 @@ header {
         width: 60px;
         height: 60px;
         margin-right: 15px;
+    }
+    .header__menu-button {
+        display: none;
     }
 }
 
@@ -91,7 +97,7 @@ header {
     display: inline-block;
     height: 5px;
     width: 8px;
-    background-image: url(img/Arrow.png);
+    background-image: url(../img/Arrow.png);
     margin-left: 11px;
 }
 
