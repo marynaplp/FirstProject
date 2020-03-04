@@ -7,6 +7,10 @@ header {
     padding-left: 15px;
 }
 
+.top-section {
+    background-color: #F3C6BD;
+}
+
 .navigation {
     display: none;
 }
@@ -135,7 +139,3 @@ header {
 
 
 /*Button*/
-
-.top-section {
-    background-color: #F3C6BD;
-}
