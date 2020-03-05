@@ -1,12 +1,12 @@
-.features {
-    display: flex;
-    position: relative;
-}
-
-@media screen and (max-width:400px) {
+@media screen and (max-width:399px) {
     .features {
         display: none;
     }
+}
+
+.features {
+    display: flex;
+    position: relative;
 }
 
 .features_main_section {
@@ -17,6 +17,7 @@
 
 .features__column {
     width: 459px;
+    margin-left: 126px;
 }
 
 .features__subtitle {
