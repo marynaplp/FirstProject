@@ -1,63 +1,63 @@
-               @media screen and (min-width:400px) {
-                   .tip {
-                       display: none;
-                   }
-               }
-               
-               .tips {
-                   display: flex;
-                   position: relative;
-                   margin-top: 8px;
-                   flex-direction: column;
-               }
-               
-               .tip {
-                   padding: 40px 15px 0;
-                   border-bottom: 1px solid #E3E3E3;
-               }
-               
-               .tip__subtitle {
-                   font-weight: bold;
-                   font-size: 22px;
-                   line-height: 34px;
-                   color: #009B4D
-               }
-               
-               .tip__title {
-                   margin: 0;
-                   margin-top: 17px;
-                   font-weight: 700;
-                   font-size: 40px;
-                   line-height: 40px;
-                   letter-spacing: -0.357143px;
-               }
-               
-               .tips__description {
-                   font-size: 24px;
-                   line-height: 34px;
-                   margin: 0;
-                   margin-top: 13px;
-               }
-               
-               .tip__image {
-                   display: flex;
-                   margin: auto;
-                   max-width: 100%;
-               }
-               
-               .tip__image-caption {
-                   font-size: 14px;
-                   line-height: 22px;
-                   text-align: center;
-                   color: rgba(92, 83, 100, 0.6);
-                   margin-top: 20px;
-               }
-               
-               .tip__decoration {
-                   margin-left: -10px;
-                   margin-bottom: 40px;
-                   display: flex;
-                   flex-direction: column;
-                   align-items: center;
-                   flex-wrap: nowrap;
-               }
+              @media screen and (min-width:399px) {
+                  .tip {
+                      display: none;
+                  }
+              }
+              
+              .tips {
+                  display: flex;
+                  position: relative;
+                  margin-top: 8px;
+                  flex-direction: column;
+              }
+              
+              .tip {
+                  padding: 40px 15px 0;
+                  border-bottom: 1px solid #E3E3E3;
+              }
+              
+              .tip__subtitle {
+                  font-weight: bold;
+                  font-size: 22px;
+                  line-height: 34px;
+                  color: #009B4D
+              }
+              
+              .tip__title {
+                  margin: 0;
+                  margin-top: 17px;
+                  font-weight: 700;
+                  font-size: 40px;
+                  line-height: 40px;
+                  letter-spacing: -0.357143px;
+              }
+              
+              .tips__description {
+                  font-size: 24px;
+                  line-height: 34px;
+                  margin: 0;
+                  margin-top: 13px;
+              }
+              
+              .tip__image {
+                  display: flex;
+                  margin: auto;
+                  max-width: 100%;
+              }
+              
+              .tip__image-caption {
+                  font-size: 14px;
+                  line-height: 22px;
+                  text-align: center;
+                  color: rgba(92, 83, 100, 0.6);
+                  margin-top: 20px;
+              }
+              
+              .tip__decoration {
+                  margin-left: -10px;
+                  margin-bottom: 40px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  flex-wrap: nowrap;
+              }
