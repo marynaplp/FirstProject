@@ -1,53 +1,45 @@
-.customers {
-    display: flex;
-    flex-direction: column;
-}
-
-.customers__row {
-    display: flex;
-}
-
-.customers__item {
-    border-bottom: 1px solid #E3E3E3;
-    border-right: 1px solid #E3E3E3;
-    height: 94px;
-    width: 127px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-}
-
-.customers__item:last-child {
-    border-right: none;
-}
-
-.customer__logo {
-    filter: brightness();
-    max-width: 80%;
-}
-
-@media screen and (min-width:400px) {
-    .customers {
-        width: 1140px;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 30px;
-        padding-bottom: 81px;
-    }
-    .customers__item {
-        border: none;
-    }
-    .customer__logo {
-        filter: brightness();
-        max-width: 100%;
-    }
-    .customers__row {
-        /*display: flex;*/
-        flex: 1;
-        justify-content: space-around;
-    }
-}
+                                                                                   .customers {
+                                                                                       display: flex;
+                                                                                       flex-direction: column;
+                                                                                       @include for-large-up {
+                                                                                           width: 1140px;
+                                                                                           margin: auto;
+                                                                                           display: flex;
+                                                                                           flex-direction: row;
+                                                                                           justify-content: space-between;
+                                                                                           align-items: center;
+                                                                                           padding-top: 30px;
+                                                                                           padding-bottom: 81px;
+                                                                                       }
+                                                                                       &__row {
+                                                                                           display: flex;
+                                                                                           @include for-large-up {
+                                                                                               flex: 1;
+                                                                                               justify-content: space-around;
+                                                                                           }
+                                                                                       }
+                                                                                       &__item {
+                                                                                           border-bottom: 1px solid #E3E3E3;
+                                                                                           border-right: 1px solid #E3E3E3;
+                                                                                           height: 94px;
+                                                                                           width: 127px;
+                                                                                           display: flex;
+                                                                                           align-items: center;
+                                                                                           justify-content: center;
+                                                                                           flex: 1;
+                                                                                           &:last-child {
+                                                                                               border-right: none;
+                                                                                           }
+                                                                                           @include for-large-up {
+                                                                                               border: none;
+                                                                                           }
+                                                                                       }
+                                                                                       &__logo {
+                                                                                           filter: brightness();
+                                                                                           max-width: 80%;
+                                                                                           @include for-large-up {
+                                                                                               filter: brightness();
+                                                                                               max-width: 100%;
+                                                                                           }
+                                                                                       }
+                                                                                   }

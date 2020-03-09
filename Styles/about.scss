@@ -4,40 +4,41 @@
     background: #F4F5F7;
     display: flex;
     flex-direction: column;
+    @include for-large-up {
+        display: flex;
+        justify-content: space-between;
+        padding: 77px 130px 76px 130px;
+        flex-direction: row;
+    }
 }
 
-.article__title {
-    font-weight: 700;
-    width: 555px;
-    line-height: 32px;
-    margin: 0;
-}
-
-.article__text {
-    font-size: 22px;
-    line-height: 32px;
-    margin-bottom: 0;
-    margin-top: 6px;
+.article {
+    @include for-large-up {
+        width: 555px;
+    }
+    &:last-child {
+        margin-top: 20px;
+        @include for-large-up {
+            margin-top: 23px;
+            margin-right: 250px;
+        }
+    }
+    &__title {
+        font-weight: 700;
+        width: 555px;
+        line-height: 32px;
+        margin: 0;
+    }
+    &__text {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 0;
+        margin-top: 6px;
+    }
 }
 
 .article {
     margin-top: 20px;
     width: 290px;
     height: 180px;
-}
-
-.article:last-child {
-    margin-top: 20px;
-}
-
-@media screen and (min-width: 400px) {
-    .about {
-        display: flex;
-        justify-content: space-between;
-        padding: 77px 130px 76px 130px;
-        flex-direction: row;
-    }
-    .article {
-        width: 555px;
-    }
 }
