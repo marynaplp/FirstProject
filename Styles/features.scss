@@ -1,6 +1,7 @@
 .features {
     display: flex;
     position: relative;
+    font-family: 'Work Sans';
     @include for-large-down {
         display: none;
     }
@@ -83,5 +84,6 @@
     }
     &_main {
         position: relative;
+        margin-bottom: 110px;
     }
 }

@@ -29,10 +29,6 @@
         max-width: 555px;
         margin-bottom: 26px;
     }
-    &__email {
-        height: 48px;
-        width: 385px;
-    }
     &__button {
         background-color: #3040c4;
         color: white;
@@ -48,4 +44,13 @@
         line-height: 22px;
         color: rgba(43, 41, 45, 0.6);
     }
+    &__terms-link {
+        color: blue;
+    }
+}
+
+.email {
+    height: 48px;
+    width: 385px;
+    padding-left: 15px;
 }

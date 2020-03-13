@@ -1,4 +1,5 @@
 .headline {
+    font-family: 'Work Sans';
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,24 +16,24 @@
         @include for-large-up {
             position: absolute;
             z-index: 1;
+            margin: 0;
         }
     }
     &__title {
-        font-weight: bold;
+        font-weight: 700;
         font-size: 50px;
         line-height: 50px;
         letter-spacing: -0.3125px;
         width: 290px;
         height: 205px;
+        margin: 0;
         @include for-large-up {
             width: 754px;
-            height: 165px;
-            font-weight: bold;
+            font-weight: 700;
             font-size: 80px;
             line-height: 78px;
             letter-spacing: -0.5px;
             z-index: 1;
-            margin: 0;
         }
     }
     &__description {
@@ -43,8 +44,7 @@
         width: 290px;
         height: 172px;
         @include for-large-up {
-            margin-top: 24px;
-            margin-bottom: 0;
+            margin-top: -15px;
             height: 102px;
             width: 456px;
             font-size: 24px;
