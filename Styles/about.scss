@@ -20,10 +20,8 @@
         width: 555px;
     }
     &:last-child {
-        margin-top: 20px;
         @include for-large-up {
-            margin-top: 23px;
-            margin-right: 250px;
+            margin-left: 29px;
         }
     }
     &__title {

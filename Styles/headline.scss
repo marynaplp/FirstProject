@@ -12,7 +12,9 @@
         padding-bottom: 77px;
     }
     &__content {
-        margin: 35px 15px 33px 15px;
+        font-family: 'Work Sans';
+        margin-left: 15px;
+        margin-right: 15px;
         @include for-large-up {
             position: absolute;
             z-index: 1;
