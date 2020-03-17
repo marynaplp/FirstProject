@@ -28,7 +28,6 @@
 }
 
 .article {
-  margin-top: 20px;
   width: 290px;
   height: 180px;
 }
@@ -47,6 +46,7 @@
   }
 }
 .article__title {
+  font-size: 22px;
   font-weight: 700;
   width: 555px;
   line-height: 32px;
@@ -735,7 +735,7 @@
 .tip__image {
   display: flex;
   margin: auto;
-  max-width: 100%;
+  width: 100%;
 }
 .tip__image-caption {
   font-size: 14px;
@@ -775,7 +775,6 @@
   .inbox__decoration {
     margin-left: 0;
     margin-right: 15px;
-    margin-top: 50px;
     height: 348px;
   }
 }
@@ -790,7 +789,6 @@
   .inbox__image {
     width: 280px;
     height: 348px;
-    margin-left: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -890,16 +888,16 @@
 }
 @media screen and (min-width: 1200px) {
   .review {
-    display: flex;
     width: 519px;
     height: 213px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    border-bottom: 2px solid #0185D0;
   }
 }
 .review__description {
-  padding: 30px;
+  width: 250px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 26px;
+  padding-right: 20px;
   font-size: 20px;
   line-height: 28px;
   margin: 0;
@@ -1263,9 +1261,6 @@
 @media screen and (max-width: 1199px) {
   .hiring__title {
     font-size: 40px;
-    line-height: 40px;
-    width: 290px;
-    height: 90px;
     text-align: center;
   }
 }
@@ -1456,6 +1451,7 @@
 .feedback__title {
   color: #3142C6;
   margin-left: 15px;
+  margin-top: 39px;
 }
 @media screen and (min-width: 1200px) {
   .feedback__title {
@@ -1570,7 +1566,6 @@
     font-family: "Work Sans";
     width: 320px;
     background-color: rgba(0, 161, 198, 0.07);
-    margin: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1605,6 +1600,9 @@
 }
 .audience__subtitle {
   padding-top: 50px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
 }
 @media screen and (min-width: 1200px) {
   .audience__subtitle {
@@ -1612,6 +1610,13 @@
     font-size: 22px;
     line-height: 34px;
   }
+}
+.audience__title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.357143px;
 }
 @media screen and (min-width: 1200px) {
   .audience__title {

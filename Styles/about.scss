@@ -14,7 +14,6 @@
 }
 
 .article {
-    margin-top: 20px;
     width: 290px;
     height: 180px;
     @include for-large-up {
@@ -28,6 +27,7 @@
         }
     }
     &__title {
+        font-size: 22px;
         font-weight: 700;
         width: 555px;
         line-height: 32px;
