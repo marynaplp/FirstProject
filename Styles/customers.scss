@@ -21,7 +21,7 @@
                                                                                        &__item {
                                                                                            border-bottom: 1px solid #E3E3E3;
                                                                                            border-right: 1px solid #E3E3E3;
-                                                                                           height: 94px;
+                                                                                           height: 93px;
                                                                                            width: 127px;
                                                                                            display: flex;
                                                                                            align-items: center;
@@ -36,7 +36,7 @@
                                                                                        }
                                                                                        &__logo {
                                                                                            filter: brightness(0%);
-                                                                                           max-width: 80%;
+                                                                                           max-width: 70%;
                                                                                            @include for-large-up {
                                                                                                filter: brightness(0%);
                                                                                                max-width: 100%;

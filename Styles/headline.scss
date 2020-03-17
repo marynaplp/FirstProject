@@ -59,15 +59,17 @@
         font-size: 18px;
         font-weight: 700;
         border-radius: 2px;
-        border: none;
         margin-top: 15px;
+        border: none;
         @include for-large-up {
             margin-left: 10px;
             margin-top: 0;
+            border: none;
         }
     }
     &__actions {
         margin-top: 30px;
+        border: none;
         @include for-large-up {
             margin-top: 58px;
             display: flex;
@@ -76,6 +78,7 @@
     &__banner {
         width: 100%;
         margin-bottom: 36px;
+        margin-top: 33px;
         @include for-large-up {
             position: relative;
             right: -105px;
@@ -95,6 +98,7 @@
     font-size: 18px;
     font-weight: 700;
     border-radius: 2px;
+    border: none;
 }
 
 @include for-large-down {
