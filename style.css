@@ -462,7 +462,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url(img/icon-hamburger.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
   display: inline-block;
   margin: auto;
   margin-right: 10px;
@@ -479,6 +479,8 @@
   width: 58px;
   opacity: 0.15;
   border-left: 1px solid #000000;
+  border-top: none;
+  border-bottom: none;
   height: 100%;
   margin-left: auto;
   display: inline-block;
@@ -1323,7 +1325,7 @@
   }
 }
 
-.position {
+.vacancy {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1333,7 +1335,7 @@
   font-family: "Work Sans";
 }
 @media screen and (min-width: 1200px) {
-  .position {
+  .vacancy {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1341,7 +1343,7 @@
     font-family: "Work Sans";
   }
 }
-.position__item {
+.vacancy__item {
   width: 280px;
   height: 140px;
   background-color: white;
@@ -1357,7 +1359,7 @@
   padding-left: 20px;
 }
 @media screen and (min-width: 1200px) {
-  .position__item {
+  .vacancy__item {
     width: 750px;
     height: 81px;
     font-size: 18px;
@@ -1373,24 +1375,24 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .position__item:nth-child(1):hover {
+  .vacancy__item:nth-child(1):hover {
     background: #3141C5;
     cursor: pointer;
     color: white;
   }
 }
-.position__title {
+.vacancy__title {
   display: flex;
   flex-direction: column;
   width: 200px;
   padding-top: 19px;
 }
 @media screen and (min-width: 1200px) {
-  .position__title {
+  .vacancy__title {
     width: 408px;
   }
 }
-.position__place {
+.vacancy__place {
   display: flex;
   flex-direction: column;
   padding-top: 19px;
@@ -1401,7 +1403,7 @@
   line-height: 22px;
 }
 @media screen and (min-width: 1200px) {
-  .position__place {
+  .vacancy__place {
     font-size: 18px;
     line-height: 24px;
     width: 232px;
@@ -1409,14 +1411,14 @@
     opacity: 0.6;
   }
 }
-.position__place_selected {
+.vacancy__place_selected {
   font-family: "Work Sans";
   padding-top: 19px;
   height: 59px;
   opacity: 0.6;
 }
 @media screen and (min-width: 1200px) {
-  .position__place_selected {
+  .vacancy__place_selected {
     font-size: 18px;
     line-height: 24px;
     width: 232px;
@@ -1644,20 +1646,20 @@
   }
 }
 @media screen and (max-width: 1199px) {
-  .user__profile {
+  .user-card {
     margin-right: 15px;
     padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .user__profile {
+  .user-card {
     width: 1400px;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
 }
-.user__profile_item {
+.user-card__item {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   cursor: pointer;
@@ -1671,7 +1673,7 @@
   margin-left: 15px;
 }
 @media screen and (min-width: 1200px) {
-  .user__profile_item {
+  .user-card__item {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1685,48 +1687,48 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .user__profile_item:nth-child(1) {
+  .user-card__item:nth-child(1) {
     margin-left: 130px;
     margin-right: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .user__profile_item:nth-child(2) {
+  .user-card__item:nth-child(2) {
     margin-right: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .user__profile_item:nth-child(3) {
+  .user-card__item:nth-child(3) {
     margin-right: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .user__profile_item:nth-child(4) {
+  .user-card__item:nth-child(4) {
     margin-right: 131px;
   }
 }
 @media screen and (max-width: 1199px) {
-  .user__profile_item:hover {
+  .user-card__item:hover {
     background-color: #3141C5;
     color: white;
   }
 }
 @media screen and (min-width: 1200px) {
-  .user__profile_item:hover {
+  .user-card__item:hover {
     background-color: #3141C5;
     color: white;
   }
 }
 @media screen and (min-width: 1200px) {
-  .user__profile_item__image {
+  .user-card__item__image {
     max-width: 100%;
   }
 }
-.user__profile .user-profile__caption {
+.user-card__item__caption {
   font-weight: bold;
 }
 @media screen and (min-width: 1200px) {
-  .user__profile .user-profile__caption {
+  .user-card__item__caption {
     display: flex;
     flex-direction: column;
     margin-top: 22px;

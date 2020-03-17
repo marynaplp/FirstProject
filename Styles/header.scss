@@ -16,7 +16,7 @@
             &__menu-icon {
                 width: 18px;
                 height: 13px;
-                background-image: url(img/icon-hamburger.png);
+                background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
                 display: inline-block;
                 margin: auto;
                 margin-right: 10px;
@@ -31,6 +31,8 @@
                 width: 58px;
                 opacity: 0.15;
                 border-left: 1px solid #000000;
+                border-top: none;
+                border-bottom: none;
                 height: 100%;
                 margin-left: auto;
                 display: inline-block;
