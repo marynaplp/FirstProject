@@ -20,7 +20,7 @@
         width: 555px;
     }
     &:first-child {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
     &:last-child {
         @include for-large-up {

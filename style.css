@@ -38,7 +38,7 @@
   }
 }
 .article:first-child {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 @media screen and (min-width: 1200px) {
   .article:last-child {
