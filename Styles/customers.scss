@@ -35,10 +35,10 @@
                                                                                            }
                                                                                        }
                                                                                        &__logo {
-                                                                                           filter: brightness();
+                                                                                           filter: brightness(0%);
                                                                                            max-width: 80%;
                                                                                            @include for-large-up {
-                                                                                               filter: brightness();
+                                                                                               filter: brightness(0%);
                                                                                                max-width: 100%;
                                                                                            }
                                                                                        }

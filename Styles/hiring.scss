@@ -8,7 +8,7 @@
                                                             border: 1px solid #2B292D;
                                                             width: 1400px;
                                                             opacity: 0.1;
-                                                            margin-top: -1px;
+                                                            margin-top: -2px;
                                                         }
                                                         &__title {
                                                             @include for-large-down {
@@ -51,13 +51,14 @@
                                                         &__action-btn {
                                                             background-color: #3040c4;
                                                             color: white;
-                                                            width: 247px;
+                                                            width: 290px;
                                                             height: 48px;
                                                             font-size: 18px;
                                                             font-weight: 700;
                                                             border-radius: 2px;
                                                             margin-bottom: 39px;
                                                             margin-top: 30px;
+                                                            border: none;
                                                             @include for-large-up {
                                                                 margin-bottom: 110px;
                                                             }

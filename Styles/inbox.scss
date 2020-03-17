@@ -1,10 +1,10 @@
     .inbox {
         @include for-large-down {
-            padding: 50px 15px;
             background-color: rgba(252, 240, 227, 0.4);
             display: flex;
             flex-direction: column;
-            margin-left: 0;
+            padding-left: 15px;
+            padding-bottom: 48px;
         }
         @include for-large-up {
             display: flex;
@@ -16,8 +16,8 @@
         }
         &__decoration {
             @include for-large-down {
-                margin-left: 0;
-                margin-right: 15px;
+                margin-left: 15px;
+                margin-top: 50px;
                 height: 348px;
             }
             @include for-large-up {
@@ -85,6 +85,8 @@
         &__title {
             @include for-large-down {
                 margin-top: 17px;
+                font-size: 40px;
+                line-height: 40px;
             }
             @include for-large-up {
                 font-weight: bold;
@@ -143,8 +145,7 @@
         &__details {
             margin-top: -5px;
             display: flex;
-            margin-left: 26px;
-            padding-left: 5px;
+            margin-left: 20px;
         }
         &__text {
             margin: 0;

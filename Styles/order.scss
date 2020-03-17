@@ -16,7 +16,8 @@
         margin-left: 60px;
         @include for-large-up {
             margin-right: 224px;
-            max-height: 296px;
+            width: 269.41px;
+            height: 296px;
             margin-top: 73px;
             margin-bottom: 73px;
         }
@@ -79,6 +80,7 @@
         border-radius: 2px;
         margin-left: 15px;
         margin-top: 12px;
+        border: none;
         @include for-large-up {
             width: 160px;
         }
@@ -95,9 +97,7 @@
         }
     }
     &__terms-link {
-        @include for-large-up {
-            color: blue;
-        }
+        color: blue;
     }
 }
 

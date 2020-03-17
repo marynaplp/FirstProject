@@ -19,8 +19,9 @@
                         }
                     }
                     &__column {
-                        @include for-large-down {}
-                        margin-right: 15px;
+                        @include for-large-down {
+                            margin-right: 15px;
+                        }
                         @include for-large-up {
                             width: 459px;
                             margin-bottom: 110px;
@@ -29,12 +30,12 @@
                     &__subtitle {
                         color: #0189D1;
                         margin-bottom: 17px;
+                        margin-top: 50px;
                         @include for-large-up {
                             font-weight: bold;
                             font-size: 22px;
                             line-height: 34px;
                             color: #0189D1;
-                            margin-top: 123px;
                         }
                     }
                     &__title {
@@ -88,19 +89,6 @@
                             font-size: 14px;
                             line-height: 22px;
                             color: rgba(43, 41, 45, 0.6);
-                        }
-                    }
-                    &__line {
-                        border: 1px solid black;
-                        opacity: 0.1;
-                        width: 150px;
-                        margin-left: 15px;
-                        margin-top: 40px;
-                        @include for-large-up {
-                            border: 1px solid black;
-                            opacity: 0.1;
-                            width: 150px;
-                            margin-left: 70px;
                         }
                     }
                     &__advantages {
