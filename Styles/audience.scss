@@ -72,7 +72,6 @@
                            padding-bottom: 110px;
                        }
                    }
-                   &__action-btn {}
                    &__record {
                        @include for-large-down {
                            margin-right: 15px;
@@ -115,7 +114,7 @@
                                margin-right: 30px;
                            }
                        }
-                       &:nth-child(2):hover {
+                       &:hover {
                            @include for-large-down {
                                background-color: #3141C5;
                                color: white;
